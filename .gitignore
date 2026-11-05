@@ -1,0 +1,6 @@
+.env
+.env.local
+openai_chat.py
+*.log
+__pycache__/
+node_modules/

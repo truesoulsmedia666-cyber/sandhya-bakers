@@ -1,0 +1,2012 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sandhya Bakers &amp; Caterers — Pala, Kottayam (Est. 1992)</title>
+<meta name="description" content="Sandhya Caterers (since 1992) and Sandhya Bakers (since 1998) in Pala, Bharananganam, Murikkumpuzha and Thodupuzha. Traditional Kerala Sadya, wedding reception feasts, custom celebration cakes and rich plum cakes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif+Malayalam:wght@500;600&display=swap">
+<style>
+:root {
+  --bg: #FAF7F0;
+  --bg-alt: #F2ECE0;
+  --surface: #FFFFFF;
+  --ink: #1B1917;
+  --ink-soft: #57534E;
+  --ink-muted: #78716C;
+  --forest: #152C21;
+  --forest-soft: #1E3D2F;
+  --brass: #A66E2E;
+  --brass-light: #D8B37B;
+  --cream: #F7F1E3;
+  --line: #E4DDD0;
+  --line-strong: #CEC4B2;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #111614;
+  --bg-alt: #171F1B;
+  --surface: #1B2420;
+  --ink: #F5EFE4;
+  --ink-soft: #C7BFB2;
+  --ink-muted: #948C80;
+  --forest: #1E382B;
+  --forest-soft: #264636;
+  --brass: #D49B54;
+  --brass-light: #E5BC82;
+  --cream: #F5EFE4;
+  --line: #28332E;
+  --line-strong: #394740;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .serif {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  line-height: 1.08;
+  margin: 0;
+  letter-spacing: -0.015em;
+}
+
+h1 { font-size: clamp(2.75rem, 5.4vw, 4.65rem); }
+h2 { font-size: clamp(2.1rem, 3.8vw, 3.35rem); }
+h3 { font-size: clamp(1.45rem, 2.1vw, 1.85rem); }
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+.ml {
+  font-family: 'Noto Serif Malayalam', serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-inline: clamp(20px, 4vw, 48px);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brass);
+  margin-bottom: 14px;
+}
+.eyebrow::before {
+  content: "";
+  width: 24px;
+  height: 1px;
+  background: var(--brass);
+}
+
+/* Top Utility Bar */
+.utility-bar {
+  background: var(--forest);
+  color: rgba(247, 241, 227, 0.88);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.utility-bar .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+.utility-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.utility-links a {
+  color: var(--brass-light);
+  font-weight: 600;
+}
+
+/* Header & Navigation */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 82px;
+  gap: 24px;
+}
+.brand-lockup {
+  display: flex;
+  flex-direction: column;
+}
+.brand-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.brand-meta {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-muted);
+  margin-top: 4px;
+}
+nav.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+nav.primary-nav a.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  transition: color 0.2s ease;
+  position: relative;
+  padding-block: 4px;
+}
+nav.primary-nav a.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background: var(--brass);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+nav.primary-nav a.nav-link:hover {
+  color: var(--ink);
+}
+nav.primary-nav a.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.theme-btn, .mobile-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-grid;
+  place-items: center;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+.theme-btn:hover, .mobile-toggle:hover {
+  border-color: var(--ink);
+  background: var(--bg-alt);
+}
+.mobile-toggle { display: none; }
+
+.mobile-drawer {
+  display: none;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+  padding: 20px 24px;
+}
+.mobile-drawer.open {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.mobile-drawer a {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0.85rem 1.65rem;
+  border-radius: var(--radius-sm);
+  background: var(--forest);
+  color: var(--cream);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--forest);
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+.btn:hover {
+  background: var(--forest-soft);
+}
+.btn.outline {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+.btn.outline:hover {
+  border-color: var(--ink);
+  background: var(--bg-alt);
+}
+.btn.brass {
+  background: var(--brass);
+  border-color: var(--brass);
+  color: #fff;
+}
+.btn.brass:hover {
+  filter: brightness(1.08);
+}
+.btn.small {
+  padding: 0.62rem 1.2rem;
+  font-size: 0.78rem;
+}
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brass);
+  border-bottom: 1px solid var(--brass);
+  padding-bottom: 3px;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+.link-arrow:hover {
+  gap: 12px;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+/* Hero Section */
+.hero {
+  padding-block: clamp(36px, 5vw, 72px) clamp(56px, 7vw, 96px);
+  border-bottom: 1px solid var(--line);
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+.hero-ml {
+  display: block;
+  color: var(--brass);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.hero h1 em {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--brass);
+}
+.hero-lead {
+  margin-top: 22px;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  max-width: 34em;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+  margin-top: 32px;
+}
+.hero-ledger {
+  margin-top: 44px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.ledger-item strong {
+  display: block;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+}
+.ledger-item span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin-top: 6px;
+}
+
+.hero-composition {
+  position: relative;
+  padding-bottom: 36px;
+}
+.hero-main-photo {
+  aspect-ratio: 4 / 3.3;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 24px 48px rgba(27, 25, 23, 0.12);
+}
+.hero-main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-inset-card {
+  position: absolute;
+  left: -28px;
+  bottom: 0;
+  width: 46%;
+  background: var(--surface);
+  padding: 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 18px 36px rgba(27, 25, 23, 0.16);
+}
+.hero-inset-card img {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.hero-inset-caption {
+  padding: 8px 4px 2px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.hero-caption-note {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.03em;
+}
+
+/* Marquee Strip */
+.photo-ribbon {
+  padding-block: 36px;
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.ribbon-track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: ribbonScroll 52s linear infinite;
+}
+.photo-ribbon:hover .ribbon-track {
+  animation-play-state: paused;
+}
+.ribbon-card {
+  width: 250px;
+  flex-shrink: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 10px;
+}
+.ribbon-card-img {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.ribbon-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.ribbon-card:hover .ribbon-card-img img {
+  transform: scale(1.05);
+}
+.ribbon-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 4px 2px;
+  font-size: 0.84rem;
+}
+.ribbon-card-meta strong {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.1rem;
+}
+.ribbon-card-meta span {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+@keyframes ribbonScroll {
+  to { transform: translateX(-50%); }
+}
+
+/* Heritage Story Section */
+section {
+  padding-block: clamp(64px, 8vw, 112px);
+}
+.story-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: clamp(36px, 6vw, 84px);
+  align-items: center;
+}
+.story-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: end;
+}
+.story-img-tall {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.story-img-tall img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-quote-box {
+  background: var(--forest);
+  color: var(--cream);
+  padding: 28px 24px;
+  border-radius: var(--radius-md);
+}
+.story-quote-box p {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+.story-quote-box span {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brass-light);
+}
+.story-copy p {
+  margin-top: 18px;
+  color: var(--ink-soft);
+}
+.story-pillars {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.pillar h4 {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+.pillar p {
+  margin-top: 0;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+/* Menu / Culinary Offerings */
+.menu-section {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.section-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px 40px;
+  margin-bottom: 36px;
+}
+.section-header p {
+  color: var(--ink-soft);
+  max-width: 30em;
+}
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 16px;
+}
+.tab-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink-soft);
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.tab-btn:hover {
+  color: var(--ink);
+  background: var(--surface);
+}
+.tab-btn.active {
+  background: var(--forest);
+  color: var(--cream);
+  border-color: var(--forest);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.menu-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(27, 25, 23, 0.08);
+}
+.menu-card-media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+.menu-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s ease;
+}
+.menu-card:hover .menu-card-media img {
+  transform: scale(1.05);
+}
+.menu-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(27, 25, 23, 0.82);
+  backdrop-filter: blur(6px);
+  color: #F7F1E3;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+}
+.menu-card-content {
+  padding: 22px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.menu-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.menu-price {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--brass);
+  white-space: nowrap;
+}
+.menu-card-content p {
+  margin-top: 8px;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  flex: 1;
+}
+.menu-card-footer {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-dish-btn {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.select-dish-btn:hover, .select-dish-btn.selected {
+  background: var(--forest);
+  color: var(--cream);
+  border-color: var(--forest);
+}
+
+/* Catering Menus & Bespoke Planner */
+.catering-tiers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-bottom: 48px;
+}
+.tier-card {
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.tier-card.featured {
+  border: 2px solid var(--brass);
+  background: color-mix(in srgb, var(--surface) 85%, var(--bg-alt));
+}
+.tier-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brass);
+  margin-bottom: 8px;
+}
+.tier-rate {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.15rem;
+  font-weight: 700;
+  margin: 14px 0 6px;
+}
+.tier-rate small {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+.tier-desc {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.tier-items {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 28px;
+  display: grid;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  flex: 1;
+}
+.tier-items li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+.tier-items li::before {
+  content: "—";
+  color: var(--brass);
+  font-weight: 700;
+}
+
+/* Bespoke Planner Bar */
+.planner-panel {
+  background: var(--forest);
+  color: var(--cream);
+  border-radius: var(--radius-md);
+  padding: clamp(28px, 4vw, 44px);
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 36px;
+  align-items: center;
+}
+.planner-panel h3 {
+  color: var(--cream);
+  font-size: 1.9rem;
+}
+.planner-controls {
+  margin-top: 22px;
+  display: grid;
+  gap: 20px;
+}
+.control-group label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brass-light);
+  margin-bottom: 8px;
+}
+.control-group input[type="range"] {
+  width: 100%;
+  accent-color: var(--brass-light);
+  cursor: pointer;
+}
+.style-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.style-opt {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--cream);
+  padding: 9px 16px;
+  border-radius: var(--radius-sm);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.style-opt.active {
+  background: var(--brass);
+  border-color: var(--brass);
+  color: #fff;
+  font-weight: 600;
+}
+.planner-summary {
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-md);
+  padding: 28px;
+}
+.planner-summary-label {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brass-light);
+}
+.planner-amount {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.1rem, 3.5vw, 2.85rem);
+  font-weight: 700;
+  color: #fff;
+  margin: 8px 0;
+}
+.planner-meta {
+  font-size: 0.85rem;
+  color: rgba(247, 241, 227, 0.78);
+  margin-bottom: 20px;
+}
+
+/* Outlets & Locations */
+.outlets-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+.outlet-photo-box {
+  aspect-ratio: 4 / 3.2;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.outlet-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.outlet-list {
+  border-top: 1px solid var(--line-strong);
+}
+.outlet-row {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line-strong);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 24px;
+  align-items: center;
+}
+.outlet-row h3 {
+  font-size: 1.5rem;
+}
+.outlet-tag {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brass);
+  border: 1px solid var(--line-strong);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.outlet-detail {
+  grid-column: 1;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+/* Testimonials & Google Proof */
+.reviews-section {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.rating-banner {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: clamp(24px, 4vw, 40px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.rating-score-wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.rating-number {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 0.9;
+  color: var(--ink);
+}
+.stars-row {
+  color: var(--brass);
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.testimonial-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.testimonial-text {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.24rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.testimonial-meta {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+.testimonial-meta strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* FAQ Section */
+.faq-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+details {
+  border-bottom: 1px solid var(--line-strong);
+}
+details:first-of-type {
+  border-top: 1px solid var(--line-strong);
+}
+summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.38rem;
+  font-weight: 600;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: "+";
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--brass);
+  transition: transform 0.25s ease;
+}
+details[open] summary::after {
+  transform: rotate(45deg);
+}
+details p {
+  padding-bottom: 20px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  max-width: 42em;
+}
+
+/* Enquiry & WhatsApp Desk */
+.enquire-section {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+}
+.enquire-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(36px, 5vw, 72px);
+  align-items: start;
+}
+.direct-desk {
+  margin-top: 32px;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  display: grid;
+  gap: 16px;
+}
+.desk-item small {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-muted);
+}
+.desk-item strong {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.5rem;
+}
+
+form.enq-form {
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  padding: clamp(24px, 4vw, 40px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.field.full {
+  grid-column: 1 / -1;
+}
+label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+input, select, textarea {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  padding: 0.78rem 0.95rem;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--forest);
+}
+textarea {
+  min-height: 108px;
+  resize: vertical;
+}
+.wa-preview {
+  margin-top: 20px;
+  padding: 24px;
+  background: var(--bg-alt);
+  border: 1px solid var(--brass);
+  border-radius: var(--radius-md);
+}
+.wa-preview pre {
+  margin: 0 0 16px;
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 0.92rem;
+  background: var(--surface);
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+}
+.wa-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background: var(--forest);
+  color: var(--cream);
+  padding-block: 64px 36px;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 36px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.footer-col h4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brass-light);
+  margin-bottom: 14px;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+.footer-col a {
+  color: rgba(247, 241, 227, 0.82);
+  transition: color 0.2s;
+}
+.footer-col a:hover {
+  color: #fff;
+}
+.footer-wordmark {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.5rem, 15vw, 12.5rem);
+  font-weight: 700;
+  line-height: 0.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(247, 241, 227, 0.08);
+  margin-top: 28px;
+  user-select: none;
+}
+.footer-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.82rem;
+  color: rgba(247, 241, 227, 0.65);
+}
+
+@media (max-width: 960px) {
+  .hero-grid, .story-grid, .outlets-grid, .faq-grid, .enquire-grid, .planner-panel {
+    grid-template-columns: 1fr;
+  }
+  .menu-grid, .catering-tiers, .testimonials-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  nav.primary-nav { display: none; }
+  .mobile-toggle { display: inline-grid; }
+  .hero-inset-card { left: 16px; width: 42%; }
+}
+
+@media (max-width: 600px) {
+  .menu-grid, .catering-tiers, .testimonials-grid, .footer-top, form.enq-form, .story-pillars {
+    grid-template-columns: 1fr;
+  }
+  .hero-ledger {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-inset-card {
+    position: static;
+    width: 100%;
+    margin-top: 14px;
+  }
+  .hero-composition { padding-bottom: 0; }
+  .outlet-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="utility-bar">
+  <div class="wrap">
+    <div>PALA · BHARANANGANAM · MURIKKUMPUZHA · THODUPUZHA</div>
+    <div class="utility-links">
+      <span>Open Daily 7:30 AM – 9:00 PM</span>
+      <a href="#enquire">Direct Catering Desk: +91 90612 86660</a>
+    </div>
+  </div>
+</div>
+
+<header id="top">
+  <div class="wrap">
+    <a href="#top" class="brand-lockup" aria-label="Sandhya Bakers and Caterers Home">
+      <span class="brand-name">Sandhya</span>
+      <span class="brand-meta">Bakers &amp; Caterers · Est. 1992</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary Navigation">
+      <a class="nav-link" href="#story">Our Story</a>
+      <a class="nav-link" href="#menu">Bakery &amp; Kitchen</a>
+      <a class="nav-link" href="#catering">Wedding Catering</a>
+      <a class="nav-link" href="#outlets">3 Outlets</a>
+      <a class="nav-link" href="#reviews">Reviews</a>
+      <a class="nav-link" href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="theme-btn" id="themeToggle" aria-label="Toggle colour theme" title="Toggle Dark / Light Mode">☾</button>
+      <a class="btn small" href="#enquire">Book a Function</a>
+      <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#story">Our Heritage (Since 1992)</a>
+    <a href="#menu">Bakery &amp; Kitchen Menu</a>
+    <a href="#catering">Wedding &amp; Sadya Packages</a>
+    <a href="#outlets">Outlets in Pala, Bharananganam &amp; Murikkumpuzha</a>
+    <a href="#reviews">Client Reviews</a>
+    <a href="#enquire">Request a Quote on WhatsApp</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="ml hero-ml" lang="ml">സന്ധ്യ ബേക്കറി &amp; കാറ്ററിംഗ് · പാലാ</span>
+        <div class="eyebrow">Central Travancore Culinary Heritage</div>
+        <h1>Thirty-four years of <em>feasts, bakes</em> &amp; family tables in Pala.</h1>
+        <p class="hero-lead">Since 1992, Sandhya Caterers has cooked the wedding feast and Sandhya Bakers has baked the cake that follows it — serving generations across Pala, Kottayam and Thodupuzha from one family kitchen.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#catering">Plan a Function</a>
+          <a class="btn outline" href="#menu">Explore Bakery Menu</a>
+        </div>
+        <div class="hero-ledger">
+          <div class="ledger-item">
+            <strong id="yearsCount">34</strong>
+            <span>Years in Pala (Est. 1992)</span>
+          </div>
+          <div class="ledger-item">
+            <strong>3 Outlets</strong>
+            <span>Pala · Bharananganam · Murikkumpuzha</span>
+          </div>
+          <div class="ledger-item">
+            <strong>4.4 / 5</strong>
+            <span>Highest-rated Pala bakery outlet</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-composition">
+        <div class="hero-main-photo">
+          <img src="assets/images/sadya.jpg" alt="Traditional 26-course Kerala Sadya served on a banana leaf with matta rice, parippu, sambar, avial, pappadam and palada payasam">
+        </div>
+        <div class="hero-inset-card">
+          <img src="assets/images/birthday-cake.jpg" alt="Two-tier bespoke celebration cake with roasted pistachios and rose petals from Sandhya Bakers">
+          <div class="hero-inset-caption">
+            <span>Bespoke Tiered Cakes</span>
+            <span>Sandhya Bakers (1998)</span>
+          </div>
+        </div>
+        <div class="hero-caption-note">01 / Traditional Banana-Leaf Sadya &amp; Custom Celebration Bakes</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO RIBBON -->
+  <div class="photo-ribbon" aria-label="Signature dishes from Sandhya">
+    <div class="ribbon-track">
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/sadya.jpg" alt="Traditional Kerala Sadya"></div>
+        <div class="ribbon-card-meta"><strong>26-Course Wedding Sadya</strong><span>Catering</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/birthday-cake.jpg" alt="Custom Celebration Cakes"></div>
+        <div class="ribbon-card-meta"><strong>Custom Tiered Cakes</strong><span>Bakery</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/plum-cake.jpg" alt="Rich Kerala Plum Cake"></div>
+        <div class="ribbon-card-meta"><strong>Matured Kerala Plum Cake</strong><span>Festive</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/banana-chips.jpg" alt="Coconut Oil Nendran Chips"></div>
+        <div class="ribbon-card-meta"><strong>Nendran Banana Chips</strong><span>Savouries</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/payasam.jpg" alt="Palada Pradhaman"></div>
+        <div class="ribbon-card-meta"><strong>Uruli Palada Payasam</strong><span>Desserts</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/catering-feast.jpg" alt="Malabar Dum Biryani"></div>
+        <div class="ribbon-card-meta"><strong>Reception Dum Biryani</strong><span>Banquets</span></div>
+      </div>
+      <div class="ribbon-card">
+        <div class="ribbon-card-img"><img src="assets/images/tea-bakes.jpg" alt="Evening Puffs and Bakes"></div>
+        <div class="ribbon-card-meta"><strong>4 PM Flaky Oven Puffs</strong><span>Tea-Time</span></div>
+      </div>
+      <!-- Seamless duplicate set -->
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/sadya.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>26-Course Wedding Sadya</strong><span>Catering</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/birthday-cake.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>Custom Tiered Cakes</strong><span>Bakery</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/plum-cake.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>Matured Kerala Plum Cake</strong><span>Festive</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/banana-chips.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>Nendran Banana Chips</strong><span>Savouries</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/payasam.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>Uruli Palada Payasam</strong><span>Desserts</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/catering-feast.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>Reception Dum Biryani</strong><span>Banquets</span></div>
+      </div>
+      <div class="ribbon-card" aria-hidden="true">
+        <div class="ribbon-card-img"><img src="assets/images/tea-bakes.jpg" alt=""></div>
+        <div class="ribbon-card-meta"><strong>4 PM Flaky Oven Puffs</strong><span>Tea-Time</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERITAGE STORY -->
+  <section id="story">
+    <div class="wrap story-grid">
+      <div class="story-media">
+        <div class="story-img-tall">
+          <img src="assets/images/bakery-intro.jpg" alt="Freshly baked artisan loaves from Sandhya Bakers">
+        </div>
+        <div>
+          <div class="story-img-tall" style="aspect-ratio:1/1;margin-bottom:16px">
+            <img src="assets/images/plum-cake.jpg" alt="Sliced Kerala Plum Cake with spices and cashews">
+          </div>
+          <div class="story-quote-box">
+            <p>“Parents who booked us for their own weddings in the nineties now call us to cater their children’s receptions.”</p>
+            <span>Sandhya Family Kitchen · Pala</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-copy">
+        <div class="eyebrow">Two Kitchens, One Family Name</div>
+        <h2>A little flour. A lot of Sandhya.</h2>
+        <p>Founded in 1992 in Pala, <strong>Sandhya Caterers</strong> began with a simple promise: every wedding feast, housewarming and parish celebration should taste like it came from a generous family hearth, never an industrial assembly line.</p>
+        <p>Six years later, in 1998, <strong>Sandhya Bakers</strong> opened its doors so families wouldn't have to look elsewhere for their betrothal cakes, Christmas plum cakes, coconut-oil banana chips, and evening tea puffs.</p>
+        <div class="story-pillars">
+          <div class="pillar">
+            <h4>Sandhya Caterers · 1992</h4>
+            <p>Full-service banana-leaf Sadyas, Syrian Christian reception buffets, live appam stations and trained serving teams across Kottayam &amp; Idukki.</p>
+          </div>
+          <div class="pillar">
+            <h4>Sandhya Bakers · 1998</h4>
+            <p>Three daily-baked neighbourhood outlets in Pala, Bharananganam and Murikkumpuzha — rated up to 4.4 stars on Google.</p>
+          </div>
+        </div>
+        <div style="margin-top:28px">
+          <a class="link-arrow" href="#outlets">Visit our three outlets in Pala &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURATED MENU -->
+  <section class="menu-section" id="menu">
+    <div class="wrap">
+      <div class="section-header">
+        <div>
+          <div class="eyebrow">From the Bakery &amp; The Uruli</div>
+          <h2>Signature Offerings</h2>
+        </div>
+        <p>Prepared fresh every morning in Pala. Select any item below to include it directly in your WhatsApp quote request.</p>
+      </div>
+
+      <div class="filter-tabs" role="tablist" aria-label="Filter offerings by category">
+        <button type="button" class="tab-btn active" data-filter="all">All Offerings</button>
+        <button type="button" class="tab-btn" data-filter="catering">Wedding &amp; Event Feasts</button>
+        <button type="button" class="tab-btn" data-filter="cakes">Celebration &amp; Plum Cakes</button>
+        <button type="button" class="tab-btn" data-filter="snacks">Kerala Chips, Payasam &amp; Bakes</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <article class="menu-card" data-cat="catering">
+          <div class="menu-card-media">
+            <span class="menu-badge">Signature Feast</span>
+            <img src="assets/images/sadya.jpg" alt="Traditional Kerala Sadya on banana leaf">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Traditional Kerala Sadya</h3>
+              <span class="menu-price">₹160 – ₹220 / leaf</span>
+            </div>
+            <p>Served on fresh banana leaf with red matta rice, parippu &amp; ghee, arachuvitta sambar, avial, olan, pachadi, thoran, pappadam, chips and double payasam.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Wedding" data-item="Traditional Kerala Sadya">Request Menu &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Traditional Kerala Sadya">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-cat="cakes">
+          <div class="menu-card-media">
+            <span class="menu-badge">Bespoke Bakery</span>
+            <img src="assets/images/birthday-cake.jpg" alt="Custom two-tier wedding and birthday cake">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Wedding &amp; Birthday Cakes</h3>
+              <span class="menu-price">From ₹650 / kg</span>
+            </div>
+            <p>Hand-piped buttercream and fresh cream cakes in pistachio rose, praline butterscotch, Spanish delight and custom tiered wedding designs.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Cake order" data-item="Custom Birthday / Wedding Cake">Reserve Cake &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Custom Birthday / Wedding Cake">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-cat="cakes">
+          <div class="menu-card-media">
+            <span class="menu-badge">Since 1998</span>
+            <img src="assets/images/plum-cake.jpg" alt="Rich dark Kerala Christmas plum cake">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Matured Kerala Plum Cake</h3>
+              <span class="menu-price">₹480 / 500g</span>
+            </div>
+            <p>Slow-baked dark fruit cake laden with soaked raisins, roasted cashews, candied orange peel and warm Central Travancore spices.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Cake order" data-item="Matured Kerala Plum Cake">Order Gift Boxes &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Matured Kerala Plum Cake">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-cat="catering">
+          <div class="menu-card-media">
+            <span class="menu-badge">Reception Classic</span>
+            <img src="assets/images/catering-feast.jpg" alt="Malabar Dum Biryani and Reception Feast">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Travancore Reception Buffet</h3>
+              <span class="menu-price">₹230 – ₹340 / plate</span>
+            </div>
+            <p>Lacy Palappam with Kottayam Duck or Mutton Stew, aromatic Malabar Dum Biryani, Beef Ulathiyathu, Fish Molly and live dessert counters.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Reception" data-item="Travancore Reception Buffet">Plan Banquet &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Travancore Reception Buffet">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-cat="snacks">
+          <div class="menu-card-media">
+            <span class="menu-badge">Pure Coconut Oil</span>
+            <img src="assets/images/banana-chips.jpg" alt="Crispy golden Nendran banana chips and sharkara varatti">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Nendran Chips &amp; Sharkara Varatti</h3>
+              <span class="menu-price">₹190 / 250g</span>
+            </div>
+            <p>Thinly sliced ripe Nendran bananas fried golden in pure coconut oil alongside jaggery-spiced Sharkara Varatti, Achappam and Kuzhalappam.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Something else" data-item="Nendran Banana Chips & Savouries">Enquire Bulk &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Nendran Banana Chips & Savouries">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-cat="snacks catering">
+          <div class="menu-card-media">
+            <span class="menu-badge">Bronze Uruli</span>
+            <img src="assets/images/payasam.jpg" alt="Creamy Palada Pradhaman payasam with cashews">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-top">
+              <h3>Palada &amp; Adapradhaman</h3>
+              <span class="menu-price">₹340 / litre</span>
+            </div>
+            <p>Slow-simmered for hours in heavy bronze urulis with farm milk, rice ada, Marayoor jaggery, cardamom and ghee-roasted cashews.</p>
+            <div class="menu-card-footer">
+              <a class="link-arrow" href="#enquire" data-type="Something else" data-item="Palada Pradhaman (Litres)">Pre-Order Litres &rarr;</a>
+              <button type="button" class="select-dish-btn" data-item="Palada Pradhaman (Litres)">+ Add to Quote</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEDDING & EVENT CATERING PACKAGES -->
+  <section id="catering">
+    <div class="wrap">
+      <div class="section-header">
+        <div>
+          <div class="eyebrow">Sandhya Caterers · Since 1992</div>
+          <h2>Function &amp; Wedding Menus</h2>
+        </div>
+        <p>Every event is tailored to your family's traditions, guest count and auditorium or home venue across Kottayam and Idukki districts.</p>
+      </div>
+
+      <div class="catering-tiers">
+        <div class="tier-card">
+          <span class="tier-tag">I · Traditional Vegetarian</span>
+          <h3>The 26-Course Sadya</h3>
+          <div class="tier-rate">₹165 – ₹220 <small>per leaf</small></div>
+          <p class="tier-desc">For Weddings, Housewarmings, Onam, Vishu &amp; Temple Festivals.</p>
+          <ul class="tier-items">
+            <li>Fresh banana leaf service with uniformed parambarya staff</li>
+            <li>Matta rice, parippu, ghee, sambar, rasam &amp; moru</li>
+            <li>Avial, olan, kootukari, erissery, thoran, pachadi &amp; kichadi</li>
+            <li>Nendran chips, sharkara varatti, 3 pappadams &amp; poovan banana</li>
+            <li>Double Payasam: Palada Pradhaman &amp; Parippu/Adapradhaman</li>
+          </ul>
+          <a class="btn outline" href="#enquire" data-type="Wedding" data-item="26-Course Wedding Sadya">Request Sadya Quote</a>
+        </div>
+
+        <div class="tier-card featured">
+          <span class="tier-tag">II · Most Booked in Pala &amp; Kottayam</span>
+          <h3>Central Travancore Reception</h3>
+          <div class="tier-rate">₹240 – ₹350 <small>per plate</small></div>
+          <p class="tier-desc">Our signature Christian wedding, betrothal &amp; evening reception banquet.</p>
+          <ul class="tier-items">
+            <li>Fresh fruit welcome drinks &amp; live hot snack counter</li>
+            <li>Lacy Palappam, Kallappam &amp; Idiappam with Duck or Mutton Stew</li>
+            <li>Malabar Chicken / Mutton Dum Biryani with raita &amp; pickle</li>
+            <li>Kottayam-style Beef Ulathiyathu, Fish Molly &amp; Chicken 65</li>
+            <li>Dessert station: Hot Gulab Jamun, Palada, Ice Cream &amp; Pudding</li>
+          </ul>
+          <a class="btn brass" href="#enquire" data-type="Reception" data-item="Central Travancore Reception Banquet">Book Reception Menu</a>
+        </div>
+
+        <div class="tier-card">
+          <span class="tier-tag">III · Intimate Ceremonies</span>
+          <h3>Madhuramveppu &amp; High-Tea</h3>
+          <div class="tier-rate">₹140 – ₹210 <small>per guest</small></div>
+          <p class="tier-desc">Curated for Baptisms, Holy Communion, Betrothals &amp; Birthdays.</p>
+          <ul class="tier-items">
+            <li>Custom tiered celebration cake from Sandhya Bakers</li>
+            <li>Crispy beef/veg cutlets, flaky egg puffs &amp; ribbon sandwiches</li>
+            <li>Palappam with Chicken Stew or Mini Dum Biryani course</li>
+            <li> Wedding return sweet boxes &amp; 500g Plum Cake hampers</li>
+            <li>Freshly brewed cardamom tea &amp; filter coffee service</li>
+          </ul>
+          <a class="btn outline" href="#enquire" data-type="Engagement" data-item="Madhuramveppu & High-Tea Package">Enquire for Family Event</a>
+        </div>
+      </div>
+
+      <!-- Bespoke Budget Estimator -->
+      <div class="planner-panel" aria-label="Function Cost Estimator">
+        <div>
+          <div class="eyebrow" style="color:var(--brass-light)">Instant Banquet Calculator</div>
+          <h3>Estimate Your Function Budget</h3>
+          <p style="color:rgba(247,241,227,0.8);margin-top:8px;font-size:0.95rem">Adjust your expected guest count and preferred service style to calculate an indicative catering budget including serving staff and buffet setup.</p>
+
+          <div class="planner-controls">
+            <div class="control-group">
+              <label for="guestSlider">
+                <span>Number of Guests</span>
+                <strong id="guestCountDisplay" style="color:#fff;font-size:1.05rem">350 Guests</strong>
+              </label>
+              <input type="range" id="guestSlider" min="50" max="2000" step="25" value="350">
+            </div>
+
+            <div class="control-group">
+              <label><span>Menu Style</span></label>
+              <div class="style-selector" id="styleSelector">
+                <button type="button" class="style-opt" data-rate="185" data-label="26-Course Kerala Sadya">26-Course Sadya (~₹185)</button>
+                <button type="button" class="style-opt active" data-rate="280" data-label="Travancore Reception Banquet">Reception Banquet (~₹280)</button>
+                <button type="button" class="style-opt" data-rate="170" data-label="Madhuramveppu & High-Tea">High-Tea &amp; Bakes (~₹170)</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="planner-summary">
+          <div class="planner-summary-label">Indicative Estimate</div>
+          <div class="planner-amount" id="estimateRange">₹88,500 – ₹1,07,500</div>
+          <div class="planner-meta" id="estimateMeta">For 350 guests · Travancore Reception Banquet</div>
+          <button type="button" class="btn brass" id="sendEstimateBtn" style="width:100%">Send Estimate to WhatsApp Desk &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTLETS & LOCATIONS -->
+  <section id="outlets" style="border-top:1px solid var(--line)">
+    <div class="wrap outlets-grid">
+      <div>
+        <div class="eyebrow">Three Neighbourhood Outlets</div>
+        <h2>Visit Sandhya Bakers</h2>
+        <p style="color:var(--ink-soft);margin:14px 0 28px">Drop in for warm 4 PM puffs, fresh loaves, banana chips and custom birthday cakes, or sit down with our catering coordinator in Pala to plan your function menu.</p>
+        <div class="outlet-photo-box">
+          <img src="assets/images/tea-bakes.jpg" alt="Freshly baked golden flaky pastry from Sandhya Bakers">
+        </div>
+      </div>
+
+      <div class="outlet-list">
+        <div class="outlet-row">
+          <h3>Pala Town <span class="outlet-tag">Flagship &amp; Catering Office</span></h3>
+          <div class="outlet-detail">Sandhya Bakers &amp; Caterers, Main Road, Pala, Kottayam · Open 7:30 AM – 9:00 PM</div>
+          <a class="link-arrow" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sandhya+Bakers+Pala">Directions &rarr;</a>
+        </div>
+
+        <div class="outlet-row">
+          <h3>Bharananganam <span class="outlet-tag">Near St. Alphonsa Shrine</span></h3>
+          <div class="outlet-detail">Main Road, Bharananganam · Cakes, Pilgrim Snack Packs &amp; Savouries · 7:30 AM – 8:30 PM</div>
+          <a class="link-arrow" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sandhya+Bakers+Bharananganam">Directions &rarr;</a>
+        </div>
+
+        <div class="outlet-row">
+          <h3>Murikkumpuzha <span class="outlet-tag">Rated 4.4★ on Google</span></h3>
+          <div class="outlet-detail">Murikkumpuzha Junction, Pala · Highest-rated neighbourhood bakery in Pala</div>
+          <a class="link-arrow" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sandhya+Bakers+Murikkumpuzha">Directions &rarr;</a>
+        </div>
+
+        <div class="outlet-row">
+          <h3>Thodupuzha &amp; Kottayam <span class="outlet-tag">Event Catering Coverage</span></h3>
+          <div class="outlet-detail">Full outdoor &amp; auditorium catering across Pala, Thodupuzha, Erattupetta, Ettumanoor &amp; Kottayam</div>
+          <a class="link-arrow" href="#enquire">Check Venue &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS & SOCIAL PROOF -->
+  <section class="reviews-section" id="reviews">
+    <div class="wrap">
+      <div class="rating-banner">
+        <div class="rating-score-wrap">
+          <div class="rating-number">4.3</div>
+          <div>
+            <div class="stars-row" aria-label="4.3 out of 5 stars">★★★★★</div>
+            <p style="font-weight:600;margin-top:4px">Verified across 130+ Google Reviews for Sandhya Caterers &amp; 640+ Bakery Reviews</p>
+            <p style="font-size:0.86rem;color:var(--ink-muted)">Murikkumpuzha branch rated 4.4★ — highest among Pala bakeries.</p>
+          </div>
+        </div>
+        <a class="btn outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sandhya+Caterers+Pala">Read Google Reviews &rarr;</a>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <p class="testimonial-text">“Sandhya Caterers handled 850 guests for my sister’s wedding reception in Pala. The lacy palappam, duck roast and palada payasam were praised by every single relative. Punctual service and generous portions.”</p>
+          <div class="testimonial-meta">
+            <strong>Mathew Kurian</strong>
+            <span>Wedding Reception · Pala</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-text">“Our evening drive through Murikkumpuzha isn't complete without Sandhya's warm egg puffs and fresh coconut-oil banana chips. Their rich plum cake is a Christmas tradition in our home every December.”</p>
+          <div class="testimonial-meta">
+            <strong>Anu &amp; Joseph Thomas</strong>
+            <span>Sandhya Bakers · Murikkumpuzha</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-text">“Booked a 24-item Kerala Sadya for our housewarming in Bharananganam. From the crisp pappadam to the arachuvitta sambar and double payasam, everything tasted like an authentic home-cooked feast.”</p>
+          <div class="testimonial-meta">
+            <strong>Sreekumar Nair</strong>
+            <span>Housewarming Sadya · Bharananganam</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap faq-grid">
+      <div>
+        <div class="eyebrow">Common Questions</div>
+        <h2>Before You Book</h2>
+        <p style="color:var(--ink-soft);margin:14px 0 28px">Have a specific dietary request or custom cake design in mind? Message our family desk directly and we will guide you.</p>
+        <a class="btn" href="#enquire">Message Our Desk</a>
+      </div>
+
+      <div>
+        <details open>
+          <summary>How far in advance should we book wedding or reception catering?</summary>
+          <p>For peak wedding and festive seasons (December to February, Easter, Vishu and Onam), we recommend booking 4 to 8 weeks in advance. For smaller family gatherings of 50 to 150 guests, 7 to 10 days is usually sufficient.</p>
+        </details>
+        <details>
+          <summary>Can I pre-order a custom birthday or tiered wedding cake?</summary>
+          <p>Yes. Share your date, weight (from 1 kg upwards), flavour preference and reference design on WhatsApp. Cakes can be picked up at Pala, Bharananganam or Murikkumpuzha, or delivered directly to your reception venue.</p>
+        </details>
+        <details>
+          <summary>Do you provide serving staff, banana leaves and buffet counters?</summary>
+          <p>Yes. Our catering quotes include uniformed serving staff, fresh banana leaves or porcelain crockery, chafing dishes, welcome drink counters and post-meal dining hall cleanup.</p>
+        </details>
+        <details>
+          <summary>Can we order bulk Plum Cakes or Banana Chips for wedding return gifts?</summary>
+          <p>Absolutely. We pack custom wedding return sweet boxes, 500g/1kg Christmas plum cakes, and vacuum-sealed Nendran chip packets for outstation guests.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENQUIRE / WHATSAPP DESK -->
+  <section class="enquire-section" id="enquire">
+    <div class="wrap enquire-grid">
+      <div>
+        <span class="ml" lang="ml" style="color:var(--brass);display:block;margin-bottom:6px">ബുക്കിംഗ് &amp; അന്വേഷണങ്ങൾ</span>
+        <div class="eyebrow">Direct Booking &amp; Quotes</div>
+        <h2>Tell us about your occasion.</h2>
+        <p style="color:var(--ink-soft);margin-top:14px">Complete the form to prepare a structured enquiry for our WhatsApp desk. We respond promptly with sample menus, per-plate pricing and date availability.</p>
+
+        <div class="direct-desk">
+          <div class="desk-item">
+            <small>WhatsApp &amp; Booking Desk</small>
+            <strong><a href="https://wa.me/919061286660" target="_blank" rel="noopener">+91 90612 86660</a></strong>
+          </div>
+          <div class="desk-item">
+            <small>Service Areas</small>
+            <strong>Pala · Bharananganam · Murikkumpuzha · Kottayam · Thodupuzha</strong>
+          </div>
+          <div class="desk-item">
+            <small>Bakery &amp; Office Hours</small>
+            <strong>Monday – Sunday · 7:30 AM to 9:00 PM</strong>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form class="enq-form" id="enqForm" novalidate>
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input id="name" autocomplete="name" placeholder="e.g. Thomas Mathew">
+          </div>
+          <div class="field">
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" type="tel" autocomplete="tel" placeholder="e.g. +91 94470 XXXXX">
+          </div>
+          <div class="field">
+            <label for="type">Occasion</label>
+            <select id="type">
+              <option>Wedding</option>
+              <option>Reception</option>
+              <option>Engagement / Madhuramveppu</option>
+              <option>Baptism / Holy Communion</option>
+              <option>Housewarming</option>
+              <option>Birthday or Party</option>
+              <option>Cake Order</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Event / Pickup Date</label>
+            <input id="date" type="date">
+          </div>
+          <div class="field full">
+            <label for="guests">Estimated Guests (or Cake Weight in kg)</label>
+            <input id="guests" type="number" min="1" inputmode="numeric" placeholder="e.g. 350">
+          </div>
+          <div class="field full">
+            <label for="note">Venue &amp; Menu Preferences</label>
+            <textarea id="note" placeholder="Town/auditorium name, Sadya or Non-Veg Reception buffet, custom cake flavour, or special dishes..."></textarea>
+          </div>
+          <div class="field full">
+            <button class="btn" type="submit" style="width:100%">Prepare WhatsApp Enquiry &rarr;</button>
+          </div>
+        </form>
+
+        <div class="wa-preview" id="waPreview" hidden>
+          <pre id="waMessageText"></pre>
+          <div class="wa-actions">
+            <a class="btn brass" id="waSendLink" href="#" target="_blank" rel="noopener">Open in WhatsApp &rarr;</a>
+            <button class="btn outline" type="button" id="copyMsgBtn">Copy Text</button>
+            <span id="copyHint" style="font-size:0.85rem;color:var(--ink-muted)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col">
+        <div class="brand-name" style="color:var(--cream)">Sandhya</div>
+        <p style="margin-top:10px;font-size:0.9rem;color:rgba(247,241,227,0.75);max-width:24em">Sandhya Caterers (Est. 1992) &amp; Sandhya Bakers (Est. 1998). Serving weddings, family celebrations and daily bakes in Pala, Kottayam and Thodupuzha.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Offerings</h4>
+        <ul>
+          <li><a href="#menu">26-Course Kerala Sadya</a></li>
+          <li><a href="#menu">Reception Non-Veg Buffets</a></li>
+          <li><a href="#menu">Wedding &amp; Birthday Cakes</a></li>
+          <li><a href="#menu">Matured Kerala Plum Cake</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Outlets</h4>
+        <ul>
+          <li><a href="#outlets">Pala Main Road</a></li>
+          <li><a href="#outlets">Bharananganam</a></li>
+          <li><a href="#outlets">Murikkumpuzha (4.4★)</a></li>
+          <li><a href="#outlets">Thodupuzha Catering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Bookings</h4>
+        <ul>
+          <li><a href="#catering">Function Calculator</a></li>
+          <li><a href="#enquire">WhatsApp Quote Desk</a></li>
+          <li><a href="#reviews">Google Reviews</a></li>
+          <li><a href="#faq">Booking FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-wordmark" aria-hidden="true">SANDHYA</div>
+
+    <div class="footer-bottom">
+      <span>&copy; 1992–2026 Sandhya Bakery &amp; Catering, Pala. All rights reserved.</span>
+      <span>Digital Partner: <a href="https://truesoulsmedia.com" target="_blank" rel="noopener" style="color:var(--brass-light)">True Souls Media LLP, Pala</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var WA_NUMBER = "919061286660";
+
+  // Dynamic years since 1992
+  try {
+    var yrs = new Date().getFullYear() - 1992;
+    var yEl = document.getElementById('yearsCount');
+    if (yEl && yrs > 30) yEl.textContent = yrs;
+  } catch(e) {}
+
+  // Theme Toggle
+  var themeToggle = document.getElementById('themeToggle');
+  function syncThemeBtn() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    themeToggle.textContent = dark ? '☀' : '☾';
+  }
+  themeToggle.addEventListener('click', function(){
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    syncThemeBtn();
+  });
+  syncThemeBtn();
+
+  // Mobile Navigation Drawer
+  var mobileToggle = document.getElementById('mobileToggle');
+  var mobileDrawer = document.getElementById('mobileDrawer');
+  if (mobileToggle && mobileDrawer) {
+    mobileToggle.addEventListener('click', function(){
+      var open = mobileDrawer.classList.toggle('open');
+      mobileToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      mobileToggle.textContent = open ? '✕' : '☰';
+    });
+    mobileDrawer.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        mobileDrawer.classList.remove('open');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileToggle.textContent = '☰';
+      });
+    });
+  }
+
+  // Menu Category Tabs
+  var tabBtns = document.querySelectorAll('.tab-btn');
+  var menuCards = document.querySelectorAll('#menuGrid .menu-card');
+  tabBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var filter = btn.getAttribute('data-filter');
+      tabBtns.forEach(function(b){ b.classList.toggle('active', b === btn); });
+      menuCards.forEach(function(card){
+        var cats = (card.getAttribute('data-cat') || '').split(' ');
+        var visible = (filter === 'all' || cats.indexOf(filter) !== -1);
+        card.style.display = visible ? 'flex' : 'none';
+      });
+    });
+  });
+
+  // Dish selection into Enquiry Form
+  var chosenDishes = [];
+  function appendDishToNote(dish) {
+    if (!dish) return;
+    if (chosenDishes.indexOf(dish) === -1) chosenDishes.push(dish);
+    var note = document.getElementById('note');
+    var line = 'Selected items: ' + chosenDishes.join(', ');
+    if (!note.value.trim() || note.value.indexOf('Selected items:') === 0) {
+      note.value = line;
+    } else if (note.value.indexOf(dish) === -1) {
+      note.value = note.value.trim() + '\n' + line;
+    }
+  }
+
+  document.querySelectorAll('[data-type]').forEach(function(link){
+    link.addEventListener('click', function(){
+      var typeSel = document.getElementById('type');
+      if (typeSel) typeSel.value = link.getAttribute('data-type');
+      var item = link.getAttribute('data-item');
+      if (item) appendDishToNote(item);
+    });
+  });
+
+  document.querySelectorAll('.select-dish-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.getAttribute('data-item');
+      appendDishToNote(item);
+      btn.classList.add('selected');
+      btn.textContent = 'Added to Quote';
+      setTimeout(function(){
+        document.getElementById('enquire').scrollIntoView({behavior: 'smooth'});
+      }, 280);
+    });
+  });
+
+  // Function Budget Calculator
+  var guestSlider = document.getElementById('guestSlider');
+  var guestCountDisplay = document.getElementById('guestCountDisplay');
+  var styleOpts = document.querySelectorAll('#styleSelector .style-opt');
+  var estimateRange = document.getElementById('estimateRange');
+  var estimateMeta = document.getElementById('estimateMeta');
+  var sendEstimateBtn = document.getElementById('sendEstimateBtn');
+  var activeRate = 280;
+  var activeStyle = 'Travancore Reception Banquet';
+
+  function formatINR(num) {
+    return '₹' + Math.round(num).toLocaleString('en-IN');
+  }
+  function recalcBudget() {
+    var guests = parseInt(guestSlider.value, 10) || 350;
+    guestCountDisplay.textContent = guests + ' Guests';
+    var base = guests * activeRate;
+    var low = Math.round((base * 0.92) / 500) * 500;
+    var high = Math.round((base * 1.08) / 500) * 500;
+    estimateRange.textContent = formatINR(low) + ' – ' + formatINR(high);
+    estimateMeta.textContent = 'For ' + guests + ' guests · ' + activeStyle;
+  }
+
+  if (guestSlider) {
+    guestSlider.addEventListener('input', recalcBudget);
+    styleOpts.forEach(function(opt){
+      opt.addEventListener('click', function(){
+        styleOpts.forEach(function(o){ o.classList.remove('active'); });
+        opt.classList.add('active');
+        activeRate = parseInt(opt.getAttribute('data-rate'), 10);
+        activeStyle = opt.getAttribute('data-label');
+        recalcBudget();
+      });
+    });
+    sendEstimateBtn.addEventListener('click', function(){
+      document.getElementById('guests').value = guestSlider.value;
+      document.getElementById('note').value = 'Menu: ' + activeStyle + ' | Estimated Range: ' + estimateRange.textContent + ' for ' + guestSlider.value + ' guests. Please share full menu options.';
+      document.getElementById('enquire').scrollIntoView({behavior: 'smooth'});
+    });
+    recalcBudget();
+  }
+
+  // WhatsApp Enquiry Builder
+  var form = document.getElementById('enqForm');
+  var preview = document.getElementById('waPreview');
+  var msgText = document.getElementById('waMessageText');
+  var waSendLink = document.getElementById('waSendLink');
+  var copyMsgBtn = document.getElementById('copyMsgBtn');
+  var copyHint = document.getElementById('copyHint');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = function(id){ return (document.getElementById(id).value || '').trim(); };
+    var lines = [
+      'Hello Sandhya Bakers & Caterers,',
+      'I would like to enquire about: ' + val('type'),
+      'Date: ' + (val('date') || 'To be confirmed'),
+      'Guests / Quantity: ' + (val('guests') || 'To be confirmed'),
+      'Name: ' + (val('name') || '-'),
+    ];
+    if (val('phone')) lines.push('Contact: ' + val('phone'));
+    if (val('note')) lines.push('Details: ' + val('note'));
+
+    var finalMsg = lines.join('\n');
+    msgText.textContent = finalMsg;
+    preview.hidden = false;
+    waSendLink.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(finalMsg);
+    copyHint.textContent = 'Ready to send via WhatsApp.';
+    preview.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+  });
+
+  copyMsgBtn.addEventListener('click', function(){
+    navigator.clipboard.writeText(msgText.textContent).then(function(){
+      copyMsgBtn.textContent = 'Copied';
+      setTimeout(function(){ copyMsgBtn.textContent = 'Copy Text'; }, 1800);
+    });
+  });
+})();
+</script>
+</body>
+</html>
